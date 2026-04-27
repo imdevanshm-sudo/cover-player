@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Play, Pause, Volume2, VolumeX, SkipBack, SkipForward } from 'lucide-react';
 
-const COVER_ART = "https://images.unsplash.com/photo-1616763355548-1b606f439f86?q=80&w=1000&auto=format&fit=crop"; // Atmospheric imagery
+const COVER_ART = "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&w=1000&auto=format&fit=crop"; // Guitar-themed cover art
 const AUDIO_SRC = `${import.meta.env.BASE_URL}audio/cover.mp3`;
 
 export default function MusicPlayer() {
