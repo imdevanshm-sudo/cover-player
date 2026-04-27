@@ -229,10 +229,6 @@ export default function MusicPlayer() {
         )}
       </AnimatePresence>
 
-      {/* Instructional text for the user to replace assets */}
-      <div className="absolute top-4 right-4 text-xs font-mono text-white/20 max-w-[200px] text-right pointer-events-none hidden md:block">
-        Place actual audio in <br/>/public/audio/cover.mp3
-      </div>
     </div>
   );
 }
